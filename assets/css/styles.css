@@ -268,11 +268,14 @@ body {
     h2 {
       text-align: center;
       margin-bottom: 3rem;
-      font-size: 2.5rem;
+      font-size: 50px;
+      line-height: 60px;
       color: var(--primary-color);
+      font-family: 'Visby Thin';
 
       span {
         color: var(--white);
+        font-family: 'Visby Bold';
       }
     }
 
@@ -489,11 +492,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    .content {
-      h2 {
-        font-size: 30px;
-      }
-    }
+
   }
 
   .footer {
