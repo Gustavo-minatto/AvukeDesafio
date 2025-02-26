@@ -311,8 +311,12 @@ body {
         padding: 3rem 2rem;
         border-radius: 30px;
         text-align: center;
-        transition: transform 0.3sease;
+        transition: transform 0.3s ease;
         cursor: pointer;
+
+        @media (min-width: 881px) {
+          max-width: 250px;
+        }
 
         &:hover {
           transform: translateY(-5px);
@@ -346,7 +350,7 @@ body {
 
 .journey {
   padding: 4rem 0;
-  background: url('../img/bg-jornada.png') no-repeat;
+  background: url('../img/Jornada.png') no-repeat;
   background-size: contain;
   background-position: bottom center;
 
